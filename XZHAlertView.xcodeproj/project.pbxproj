@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED55AF91C26EB0E008EDC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED55AF81C26EB0E008EDC70 /* main.m */; };
+		FED55AFC1C26EB0E008EDC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED55AFB1C26EB0E008EDC70 /* AppDelegate.m */; };
+		FED55AFF1C26EB0E008EDC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED55AFE1C26EB0E008EDC70 /* ViewController.m */; };
+		FED55B021C26EB0E008EDC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED55B001C26EB0E008EDC70 /* Main.storyboard */; };
+		FED55B041C26EB0E008EDC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED55B031C26EB0E008EDC70 /* Assets.xcassets */; };
+		FED55B071C26EB0E008EDC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED55B051C26EB0E008EDC70 /* LaunchScreen.storyboard */; };
+		FED55B121C26EB0E008EDC70 /* XZHAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED55B111C26EB0E008EDC70 /* XZHAlertViewTests.m */; };
+		FED55B1D1C26EB0E008EDC70 /* XZHAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED55B1C1C26EB0E008EDC70 /* XZHAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED55B0E1C26EB0E008EDC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED55AEC1C26EB0E008EDC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED55AF31C26EB0E008EDC70;
+			remoteInfo = XZHAlertView;
+		};
+		FED55B191C26EB0E008EDC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED55AEC1C26EB0E008EDC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED55AF31C26EB0E008EDC70;
+			remoteInfo = XZHAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FED55AF41C26EB0E008EDC70 /* XZHAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZHAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED55AF81C26EB0E008EDC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED55AFA1C26EB0E008EDC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED55AFB1C26EB0E008EDC70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED55AFD1C26EB0E008EDC70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FED55AFE1C26EB0E008EDC70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FED55B011C26EB0E008EDC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED55B031C26EB0E008EDC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED55B061C26EB0E008EDC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED55B081C26EB0E008EDC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED55B0D1C26EB0E008EDC70 /* XZHAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZHAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED55B111C26EB0E008EDC70 /* XZHAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZHAlertViewTests.m; sourceTree = "<group>"; };
+		FED55B131C26EB0E008EDC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED55B181C26EB0E008EDC70 /* XZHAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZHAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED55B1C1C26EB0E008EDC70 /* XZHAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZHAlertViewUITests.m; sourceTree = "<group>"; };
+		FED55B1E1C26EB0E008EDC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED55AF11C26EB0E008EDC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B0A1C26EB0E008EDC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B151C26EB0E008EDC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED55AEB1C26EB0E008EDC70 = {
+			isa = PBXGroup;
+			children = (
+				FED55AF61C26EB0E008EDC70 /* XZHAlertView */,
+				FED55B101C26EB0E008EDC70 /* XZHAlertViewTests */,
+				FED55B1B1C26EB0E008EDC70 /* XZHAlertViewUITests */,
+				FED55AF51C26EB0E008EDC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED55AF51C26EB0E008EDC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED55AF41C26EB0E008EDC70 /* XZHAlertView.app */,
+				FED55B0D1C26EB0E008EDC70 /* XZHAlertViewTests.xctest */,
+				FED55B181C26EB0E008EDC70 /* XZHAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED55AF61C26EB0E008EDC70 /* XZHAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FED55AFA1C26EB0E008EDC70 /* AppDelegate.h */,
+				FED55AFB1C26EB0E008EDC70 /* AppDelegate.m */,
+				FED55AFD1C26EB0E008EDC70 /* ViewController.h */,
+				FED55AFE1C26EB0E008EDC70 /* ViewController.m */,
+				FED55B001C26EB0E008EDC70 /* Main.storyboard */,
+				FED55B031C26EB0E008EDC70 /* Assets.xcassets */,
+				FED55B051C26EB0E008EDC70 /* LaunchScreen.storyboard */,
+				FED55B081C26EB0E008EDC70 /* Info.plist */,
+				FED55AF71C26EB0E008EDC70 /* Supporting Files */,
+			);
+			path = XZHAlertView;
+			sourceTree = "<group>";
+		};
+		FED55AF71C26EB0E008EDC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED55AF81C26EB0E008EDC70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED55B101C26EB0E008EDC70 /* XZHAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FED55B111C26EB0E008EDC70 /* XZHAlertViewTests.m */,
+				FED55B131C26EB0E008EDC70 /* Info.plist */,
+			);
+			path = XZHAlertViewTests;
+			sourceTree = "<group>";
+		};
+		FED55B1B1C26EB0E008EDC70 /* XZHAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FED55B1C1C26EB0E008EDC70 /* XZHAlertViewUITests.m */,
+				FED55B1E1C26EB0E008EDC70 /* Info.plist */,
+			);
+			path = XZHAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED55AF31C26EB0E008EDC70 /* XZHAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED55B211C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertView" */;
+			buildPhases = (
+				FED55AF01C26EB0E008EDC70 /* Sources */,
+				FED55AF11C26EB0E008EDC70 /* Frameworks */,
+				FED55AF21C26EB0E008EDC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZHAlertView;
+			productName = XZHAlertView;
+			productReference = FED55AF41C26EB0E008EDC70 /* XZHAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED55B0C1C26EB0E008EDC70 /* XZHAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED55B241C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertViewTests" */;
+			buildPhases = (
+				FED55B091C26EB0E008EDC70 /* Sources */,
+				FED55B0A1C26EB0E008EDC70 /* Frameworks */,
+				FED55B0B1C26EB0E008EDC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED55B0F1C26EB0E008EDC70 /* PBXTargetDependency */,
+			);
+			name = XZHAlertViewTests;
+			productName = XZHAlertViewTests;
+			productReference = FED55B0D1C26EB0E008EDC70 /* XZHAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FED55B171C26EB0E008EDC70 /* XZHAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED55B271C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertViewUITests" */;
+			buildPhases = (
+				FED55B141C26EB0E008EDC70 /* Sources */,
+				FED55B151C26EB0E008EDC70 /* Frameworks */,
+				FED55B161C26EB0E008EDC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED55B1A1C26EB0E008EDC70 /* PBXTargetDependency */,
+			);
+			name = XZHAlertViewUITests;
+			productName = XZHAlertViewUITests;
+			productReference = FED55B181C26EB0E008EDC70 /* XZHAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED55AEC1C26EB0E008EDC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "熊志华";
+				TargetAttributes = {
+					FED55AF31C26EB0E008EDC70 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FED55B0C1C26EB0E008EDC70 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FED55AF31C26EB0E008EDC70;
+					};
+					FED55B171C26EB0E008EDC70 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FED55AF31C26EB0E008EDC70;
+					};
+				};
+			};
+			buildConfigurationList = FED55AEF1C26EB0E008EDC70 /* Build configuration list for PBXProject "XZHAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED55AEB1C26EB0E008EDC70;
+			productRefGroup = FED55AF51C26EB0E008EDC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED55AF31C26EB0E008EDC70 /* XZHAlertView */,
+				FED55B0C1C26EB0E008EDC70 /* XZHAlertViewTests */,
+				FED55B171C26EB0E008EDC70 /* XZHAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED55AF21C26EB0E008EDC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED55B071C26EB0E008EDC70 /* LaunchScreen.storyboard in Resources */,
+				FED55B041C26EB0E008EDC70 /* Assets.xcassets in Resources */,
+				FED55B021C26EB0E008EDC70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B0B1C26EB0E008EDC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B161C26EB0E008EDC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED55AF01C26EB0E008EDC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED55AFF1C26EB0E008EDC70 /* ViewController.m in Sources */,
+				FED55AFC1C26EB0E008EDC70 /* AppDelegate.m in Sources */,
+				FED55AF91C26EB0E008EDC70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B091C26EB0E008EDC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED55B121C26EB0E008EDC70 /* XZHAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED55B141C26EB0E008EDC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED55B1D1C26EB0E008EDC70 /* XZHAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED55B0F1C26EB0E008EDC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED55AF31C26EB0E008EDC70 /* XZHAlertView */;
+			targetProxy = FED55B0E1C26EB0E008EDC70 /* PBXContainerItemProxy */;
+		};
+		FED55B1A1C26EB0E008EDC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED55AF31C26EB0E008EDC70 /* XZHAlertView */;
+			targetProxy = FED55B191C26EB0E008EDC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FED55B001C26EB0E008EDC70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED55B011C26EB0E008EDC70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED55B051C26EB0E008EDC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED55B061C26EB0E008EDC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED55B1F1C26EB0E008EDC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED55B201C26EB0E008EDC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED55B221C26EB0E008EDC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZHAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FED55B231C26EB0E008EDC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZHAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FED55B251C26EB0E008EDC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XZHAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XZHAlertView.app/XZHAlertView";
+			};
+			name = Debug;
+		};
+		FED55B261C26EB0E008EDC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XZHAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XZHAlertView.app/XZHAlertView";
+			};
+			name = Release;
+		};
+		FED55B281C26EB0E008EDC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XZHAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XZHAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FED55B291C26EB0E008EDC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XZHAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.XZHAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XZHAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED55AEF1C26EB0E008EDC70 /* Build configuration list for PBXProject "XZHAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED55B1F1C26EB0E008EDC70 /* Debug */,
+				FED55B201C26EB0E008EDC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED55B211C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED55B221C26EB0E008EDC70 /* Debug */,
+				FED55B231C26EB0E008EDC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FED55B241C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED55B251C26EB0E008EDC70 /* Debug */,
+				FED55B261C26EB0E008EDC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FED55B271C26EB0E008EDC70 /* Build configuration list for PBXNativeTarget "XZHAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED55B281C26EB0E008EDC70 /* Debug */,
+				FED55B291C26EB0E008EDC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED55AEC1C26EB0E008EDC70 /* Project object */;
+}
