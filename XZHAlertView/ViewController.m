@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "XZHAlertView.h"
+@interface ViewController ()<XZHAlertViewDelegate>
 
 @end
 
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -23,5 +24,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (IBAction)handleShowAlertView:(UIButton *)sender {
+    XZHAlertView *alertView = [XZHAlertView XZHAlertViewWithTitle:@"提示" DeatilMessage:@"这是XXX输入框" Placeholder:@"请输入XXX" delegate:self];
+    [alertView show];
+}
+- (void)XZHAlertView:(XZHAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+}
 @end
